@@ -1,7 +1,7 @@
 Module module() {
   return module(
     name: "jstachio.processor",
-    version: 1,
+    version: 2,
     binding: jarBinding(
       target: mavenJar(group: "io.jstach", artifact: "jstachio-apt", version: "1.3.7", resolution: sha256("d6a619575df5c314383bf272e9d9169306f38fe677c5c49b4afbae02b2514100")),
       api: []
